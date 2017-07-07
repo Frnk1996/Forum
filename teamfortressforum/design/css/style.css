@@ -1,0 +1,106 @@
+/*standard body styling*/
+html {
+    background: center url("http://s1.picswalls.com/wallpapers/2014/09/22/team-fortress-2-desktop-wallpapers_044510569_246.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+body{
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*navigation bar*/
+.navbar-brand {
+    padding: 0;
+}
+
+.logo {
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
+
+
+/*landingpage carousel*/
+#themecarousel {
+    margin: auto;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+#themecarousel img{
+    filter: brightness(60%) blur(1px);
+    border-radius: 1%;
+    height: 70vh;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+
+/*generic content box*/
+.content {
+    width: 40vw;
+    height: 48vh;
+    margin: auto;
+    background-color: rgba(20, 20, 20, 0.76);
+    color: white;
+    border-radius: 2%;
+}
+
+
+/*login styling*/
+.login {
+    margin: auto;
+    width: 100%;
+    padding-top: 2vh;
+}
+
+.loginbutton {
+    background-color: #E7B53B;
+    color: white;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+/*register styling*/
+.register {
+    margin: auto;
+    width: 100%;
+}
+
+
+/*topics and replies styling*/
+.panel {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 20vh;
+    width: auto;
+}
+
+.panel-heading {
+    background-color: #476291;
+    color: white;
+}
+
+
+/*profile styling*/
+.profile {
+    margin-top: 2vh;
+}
+
+.propic {
+    height: auto;
+    width: 10vw;
+    margin-left: -10vw;
+    margin-bottom: 7vh;
+}
+
